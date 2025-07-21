@@ -9,5 +9,5 @@
 		  </li>
 		</ul>
     </div>
-	  &copy; 2021 <a href="#"></a>. All Rights Reserved.
+	  &copy; 2025. All Rights Reserved.
   </footer>

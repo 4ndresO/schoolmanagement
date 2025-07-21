@@ -14,8 +14,7 @@
 				 <a href="index.html">
 				  <!-- logo for regular state and mobile devices -->
 					 <div class="d-flex align-items-center justify-content-center">					 	
-						  <img src="{{asset('backend/images/logo-dark.png')}}" alt="">
-						  <h3></b> Admin</h3>
+						  <img src="{{asset('assets2/images/favicon.png')}}" alt="School Management System Logo">
 					 </div>
 				</a>
 			</div>
@@ -101,12 +100,9 @@
             <li><a href="{{ route('student.registration.view') }}"><i class="ti-more"></i>Student Registration</a></li>
 @endif       
         <li><a href="{{ route('roll.generate.view') }}"><i class="ti-more"></i>Roll Generate</a></li>
-        <li><a href="{{ route('registration.fee.view') }}"><i class="ti-more"></i>Registration Fee </a></li>
-         <li><a href="{{ route('monthly.fee.view') }}"><i class="ti-more"></i>Monthly Fee </a></li>
-         <li><a href="{{ route('exam.fee.view') }}"><i class="ti-more"></i>Exam Fee </a></li>
-         
-         
-            
+        <li><a href="{{ route('registration.fee.view') }}"><i class="ti-more"></i>Registration Fee</a></li>
+         <li><a href="{{ route('monthly.fee.view') }}"><i class="ti-more"></i>Monthly Fee</a></li>
+         <li><a href="{{ route('exam.fee.view') }}"><i class="ti-more"></i>Exam Fee</a></li>
           </ul>
         </li>
 
@@ -185,7 +181,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-        <li class="{{ ($route == 'monthly.profit.view')?'active':'' }}"><a href="{{ route('monthly.profit.view') }}"><i class="ti-more"></i>Monthly-Yearly Profite</a></li> 
+        <li class="{{ ($route == 'monthly.profit.view')?'active':'' }}"><a href="{{ route('monthly.profit.view') }}"><i class="ti-more"></i>Monthly/Yearly Profit</a></li> 
 
           <li class="{{ ($route == 'marksheet.generate.view')?'active':'' }}"><a href="{{ route('marksheet.generate.view') }}"><i class="ti-more"></i>MarkSheet Generate</a></li>
 
