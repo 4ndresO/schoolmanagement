@@ -10,7 +10,7 @@
 					<i class="nav-link-icon mdi mdi-menu"></i>
 			    </a>
 			</li>
-			<li class="btn-group nav-item">
+			<!-- <li class="btn-group nav-item">
 				<a href="#" data-provide="fullscreen" class="waves-effect waves-light nav-link rounded svg-bt-icon" title="Full Screen">
 					<i class="nav-link-icon mdi mdi-crop-free"></i>
 			    </a>
@@ -21,10 +21,10 @@
 			    </a>
 			</li>
 			<li class="btn-group nav-item d-none d-xl-inline-block">
-				<a href="" class="waves-effect waves-light nav-link rounded svg-bt-icon" title="">
+				<a href="#" class="waves-effect waves-light nav-link rounded svg-bt-icon" title="">
 					<i class="ti-calendar"></i>
 			    </a>
-			</li>
+			</li> -->
 		  </ul>
 	  </div>
 		
@@ -43,7 +43,7 @@
 				<div class="p-20">
 					<div class="flexbox">
 						<div>
-							<h4 class="mb-0 mt-0">Notifications</h4>
+							<h4 class="mb-0 mt-0 text-white">Notifications</h4>
 						</div>
 						<div>
 							<a href="#" class="text-danger">Clear All</a>
@@ -56,37 +56,37 @@
 				<!-- inner menu: contains the actual data -->
 				<ul class="menu sm-scrol">
 				  <li>
-					<a href="#">
+					<a href="#" class="text-white">
 					  <i class="fa fa-users text-info"></i> Curabitur id eros quis nunc suscipit blandit.
 					</a>
 				  </li>
 				  <li>
-					<a href="#">
+					<a href="#" class="text-white">
 					  <i class="fa fa-warning text-warning"></i> Duis malesuada justo eu sapien elementum, in semper diam posuere.
 					</a>
 				  </li>
 				  <li>
-					<a href="#">
+					<a href="#" class="text-white">
 					  <i class="fa fa-users text-danger"></i> Donec at nisi sit amet tortor commodo porttitor pretium a erat.
 					</a>
 				  </li>
 				  <li>
-					<a href="#">
+					<a href="#" class="text-white">
 					  <i class="fa fa-shopping-cart text-success"></i> In gravida mauris et nisi
 					</a>
 				  </li>
 				  <li>
-					<a href="#">
+					<a href="#" class="text-white">
 					  <i class="fa fa-user text-danger"></i> Praesent eu lacus in libero dictum fermentum.
 					</a>
 				  </li>
 				  <li>
-					<a href="#">
+					<a href="#" class="text-white">
 					  <i class="fa fa-user text-primary"></i> Nunc fringilla lorem 
 					</a>
 				  </li>
 				  <li>
-					<a href="#">
+					<a href="#" class="text-white">
 					  <i class="fa fa-user text-success"></i> Nullam euismod dolor ut quam interdum, at scelerisque ipsum imperdiet.
 					</a>
 				  </li>
@@ -116,11 +116,11 @@
 			  </li>
 			</ul>
           </li>	
-		  <li>
+		  <!-- <li>
               <a href="#" data-toggle="control-sidebar" title="Setting" class="waves-effect waves-light">
 			  	<i class="fa fa-plus-square" aria-hidden="true"></i>
 			  </a>
-          </li>
+          </li> -->
 			
         </ul>
       </div>

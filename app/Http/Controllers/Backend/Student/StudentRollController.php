@@ -44,7 +44,7 @@ class StudentRollController extends Controller
     		} // end for loop
     	}else{
     		$notification = array(
-    		'message' => 'Sorry there are no student',
+    		'message' => 'Sorry there are no students',
     		'alert-type' => 'error'
     	);
 

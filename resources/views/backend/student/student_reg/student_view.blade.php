@@ -96,9 +96,9 @@
 				<div class="box-body">
 					<div class="table-responsive">
 
-	@if(!@search)					
+	<!-- if(!@search) -->
 	 <table id="example1" class="table table-bordered table-striped">
-						<thead>
+		<thead>
 			<tr>
 				<th width="5%">SL</th>  
 				<th>Name</th>
@@ -109,9 +109,8 @@
 				<th>Image</th>
 				@if(Auth::user()->role == "Admin")
 				<th>Code</th>
-				 @endif
+				<!-- endif -->
 				<th width="25%">Action</th>
-				 
 			</tr>
 		</thead>
 		<tbody>

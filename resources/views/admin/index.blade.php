@@ -15,7 +15,7 @@
 		</div>
 		<div>
 			<p class="text-mute mt-20 mb-0 font-size-16">Total Students</p>
-			<h3 class="text-black mb-0 font-weight-500">3400 <!--small class="text-success"><i class="fa fa-caret-up"></i> +2.5%</small--></h3>
+			<h3 class="text-black mb-0 font-weight-500">1,200 <!--small class="text-success"><i class="fa fa-caret-up"></i> +2.5%</small--></h3>
 		</div>
 	</div>
 </div>
@@ -28,7 +28,7 @@
 		</div>
 		<div>
 			<p class="text-mute mt-20 mb-0 font-size-16">Total Teachers</p>
-			<h3 class="text-black mb-0 font-weight-500">3400 <!--small class="text-success"><i class="fa fa-caret-up"></i> +2.5%</small--></h3>
+			<h3 class="text-black mb-0 font-weight-500">500 <!--small class="text-success"><i class="fa fa-caret-up"></i> +2.5%</small--></h3>
 		</div>
 	</div>
 </div>
@@ -41,7 +41,7 @@
 		</div>
 		<div>
 			<p class="text-mute mt-20 mb-0 font-size-16">Total Administrators</p>
-			<h3 class="text-black mb-0 font-weight-500">500 <!--small class="text-danger"><i class="fa fa-caret-down"></i> -0.5%</small--></h3>
+			<h3 class="text-black mb-0 font-weight-500">300 <!--small class="text-danger"><i class="fa fa-caret-down"></i> -0.5%</small--></h3>
 		</div>
 	</div>
 </div>
@@ -54,7 +54,7 @@
 		</div>
 		<div>
 			<p class="text-mute mt-20 mb-0 font-size-16">Total Parents</p>
-			<h3 class="text-black mb-0 font-weight-500">1,460 <small class="text-danger"><!--i class="fa fa-caret-up"></i> -1.5%</small--></h3>
+			<h3 class="text-black mb-0 font-weight-500">1,600 <small class="text-danger"><!--i class="fa fa-caret-up"></i> -1.5%</small--></h3>
 		</div>
 	</div>
 </div>

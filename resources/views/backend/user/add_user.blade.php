@@ -36,7 +36,7 @@
 			<option value="" selected="" disabled="">Select Role</option>
 			<option value="Admin">Admin</option>
 			<option value="Operator">Operator</option>
-			 
+			<option value="User">User</option>
 		</select>
 	 </div>
           </div>

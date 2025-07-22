@@ -81,7 +81,7 @@
          <li><a href="{{ route('exam.type.view') }}"><i class="ti-more"></i>Exam Type</a></li>
          <li><a href="{{ route('school.subject.view') }}"><i class="ti-more"></i>School Subject</a></li>
          <li><a href="{{ route('assign.subject.view') }}"><i class="ti-more"></i>Assign Subject</a></li>
-         <li><a href="{{ route('designation.view') }}"><i class="ti-more"></i>Designation </a></li>
+         <li><a href="{{ route('designation.view') }}"><i class="ti-more"></i>Designation</a></li>
          
             
           </ul>
@@ -97,9 +97,9 @@
           </a>
           <ul class="treeview-menu">
  @if(Auth::user()->role == 'Admin')   
-            <li><a href="{{ route('student.registration.view') }}"><i class="ti-more"></i>Student Registration</a></li>
+            <li><a href="{{ route('student.registration.view') }}"><i class="ti-more"></i>View Students</a></li>
 @endif       
-        <li><a href="{{ route('roll.generate.view') }}"><i class="ti-more"></i>Roll Generate</a></li>
+        <li><a href="{{ route('roll.generate.view') }}"><i class="ti-more"></i>Generate Rolls</a></li>
         <li><a href="{{ route('registration.fee.view') }}"><i class="ti-more"></i>Registration Fee</a></li>
          <li><a href="{{ route('monthly.fee.view') }}"><i class="ti-more"></i>Monthly Fee</a></li>
          <li><a href="{{ route('exam.fee.view') }}"><i class="ti-more"></i>Exam Fee</a></li>
@@ -115,7 +115,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-        <li  class="{{ ($route == 'employee.registration.view')?'active':'' }}"><a href="{{ route('employee.registration.view') }}"><i class="ti-more"></i>Employee Registration</a></li>
+        <li  class="{{ ($route == 'employee.registration.view')?'active':'' }}"><a href="{{ route('employee.registration.view') }}"><i class="ti-more"></i>View Employees</a></li>
 
          <li  class="{{ ($route == 'employee.salary.view')?'active':'' }}"><a href="{{ route('employee.salary.view') }}"><i class="ti-more"></i>Employee Salary</a></li>
 
@@ -207,9 +207,9 @@
 	
 	<div class="sidebar-footer">
 		<!-- item-->
-		<a href="javascript:void(0)" class="link" data-toggle="tooltip" title="" data-original-title="Settings" aria-describedby="tooltip92529"><i class="fa fa-plus-square" aria-hidden="true"></i></a>
+		<a href="#" class="link" data-toggle="tooltip" title="" data-original-title="Settings" aria-describedby="tooltip92529"><i class="fa fa-plus-square" aria-hidden="true"></i></a>
 		<!-- item-->
-		<a href="mailbox_inbox.html" class="link" data-toggle="tooltip" title="" data-original-title="Email"><i class="ti-email"></i></a>
+		<a href="#" class="link" data-toggle="tooltip" title="" data-original-title="Email"><i class="ti-email"></i></a>
 		<!-- item-->
 		<a href="{{ route('admin.logout') }}" class="link" data-toggle="tooltip" title="" data-original-title="Logout"><i class="ti-lock"></i></a>
 	</div>
