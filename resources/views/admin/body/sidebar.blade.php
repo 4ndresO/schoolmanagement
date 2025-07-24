@@ -46,7 +46,7 @@
         </li> 
         @endif
         
-        <li class="treeview {{ ($prefix == '/parent')?'active':'' }} " >
+        <li class="treeview {{ ($prefix == '/parent')?'active':'' }}">
           <a href="#">
             <i data-feather="users"></i>
             <span>Parent Portal</span>
@@ -59,6 +59,7 @@
             <li><a href="{{ route('parent.registration.view') }}"><i class="ti-more"></i>View Parents</a></li>
             @endif 
             <li><a href="{{ route('student.view') }}"><i class="ti-more"></i>View Students</a></li>
+            <li><a href="{{ route('teachers.view') }}"><i class="ti-more"></i>View Teachers</a></li>
           </ul>
         </li> 
         

@@ -16,12 +16,13 @@ using this project._
 
 ## Features
 
-There are 4 types of user accounts. They include:
+There are 5 types of user accounts. They include:
 
 1) Administrators (Super Admin & Admin)
 2) Accountant
 3) Teacher
 4) Student
+5) Parent
 
 ### Super Admin
 
@@ -64,6 +65,13 @@ There are 4 types of user accounts. They include:
 * View library and book status
 * View noticeboard and school events in calendar
 * Manage own profile
+
+### Parent
+* View children's grades
+* View children's schedules
+* View and pay for children's fees
+* View teachers profiles
+* Contact teachers
 
 ## Installation
 

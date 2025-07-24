@@ -490,8 +490,12 @@ Route::prefix('parent')->group(function(){
     Route::get('reg/parent/add', [ParentRegController::class, 'ParentAdd'])->name('parent.registration.add');
     
     Route::get('students', function (){
-        return view('backend.parent.dashboard.index');
+        return view('backend.parent.dashboard.students');
     }/*[ParentStudentController::class, 'StudentView']*/)->name('student.view');
+    
+    Route::get('teachers', function (){
+        return view('backend.parent.dashboard.teachers');
+    }/*[ParentStudentController::class, 'StudentView']*/)->name('teachers.view');
     
 });
 
