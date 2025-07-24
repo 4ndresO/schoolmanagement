@@ -60,6 +60,8 @@
             @endif 
             <li><a href="{{ route('student.view') }}"><i class="ti-more"></i>View Students</a></li>
             <li><a href="{{ route('teachers.view') }}"><i class="ti-more"></i>View Teachers</a></li>
+            <li><a href="{{ route('announcements.index') }}"><i class="ti-more"></i>Announcements</a></li>
+
           </ul>
         </li> 
         

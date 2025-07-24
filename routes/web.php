@@ -81,6 +81,9 @@ Route::group(['middleware' => 'auth'],function(){
 
 
  // User Management All Routes 
+ //Announcement Route
+ Route::resource('announcements', App\Http\Controllers\AnnouncementController::class);
+
 
  // Grades Route
 Route::resource('grades', GradeController::class)
