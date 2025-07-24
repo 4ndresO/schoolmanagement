@@ -15,7 +15,12 @@
 							<div>
 								<h3 class="text-mute mt-20 mb-0 font-size-16">Student Name</h3>
 								<p class="text-black mb-0 font-weight-500">Grade: 8</p>
-								<p class="text-black mb-0 font-weight-500"><a href="#">View Grades</a></p>
+								<p class="text-black mb-0 font-weight-500">
+									<a href="{{ route('grades.index') }}" 
+										class="text-blue-500 hover:underline">
+										View Grades
+									</a>
+								</p>
 								<p class="text-black mb-0 font-weight-500"><a href="#">View Schedule</a></p>
 								<p class="text-black mb-0 font-weight-500"><a href="#">View Fees</a></p>
 							</div>
