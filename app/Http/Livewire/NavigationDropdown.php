@@ -10,6 +10,10 @@ class NavigationDropdown extends NavigationMenu
         'Dashboard'  => 'dashboard',
         'My Grades'  => 'grades.index',
         'Profile'    => 'profile.view',
+        'Parent Portal' => [  
+            'View Students' => 'student.view',
+            'Announcements' => 'announcements.index',
+        ],
         'More'       => [
             'Settings' => 'profile.edit',
             'Log out'  => 'logout',
