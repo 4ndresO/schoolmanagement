@@ -46,6 +46,9 @@ use App\Http\Controllers\Backend\Parent\ParentStudentController;
 
 
 
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -79,6 +82,10 @@ Route::group(['middleware' => 'auth'],function(){
 
  // User Management All Routes 
 
+ // Grades Route
+Route::resource('grades', GradeController::class)
+    ->only(['index', 'show']);
+
 Route::prefix('users')->group(function(){
 
     Route::get('/view', [UserController::class, 'UserView'])->name('user.view');
@@ -105,7 +112,7 @@ Route::prefix('profile')->group(function(){
 
     Route::get('/password/view', [ProfileController::class, 'PasswordView'])->name('password.view');
 
-    Route::post('/password/update', [ProfileController::class, 'PasswordUpdate'])->name('password.update');
+    Route::post('/password/update', [ProfileController::class, 'PasswordUpdate'])->name('profile.password.update');
 
 }); 
 
